@@ -270,8 +270,14 @@ for (let i = 0; i < likeButton.length; i++) {
     likeButton[i].addEventListener('click', function() {
         this.classList.toggle('js-like-button');
         
-        document.getElementById('like-counter-' + posts[i].id).innerHTML = ++posts[i].likes;
-        likesArray.push(posts[i]['id']);
+        if (this.classList.contains('js-like-button')) {
+            document.getElementById('like-counter-' + posts[i].id).innerHTML = ++posts[i].likes;
+            likesArray.push(posts[i]['id']);
+        } else {
+            document.getElementById('like-counter-' + posts[i].id).innerHTML = --posts[i].likes;
+            likesArray.pop(posts[i]['id']);
+        }
+        
         console.log(likesArray);
     });
 };
