@@ -225,8 +225,10 @@ const postsContainer = document.querySelector('.posts-list');
 //* creiamo un ciclo for each per stampare tutti i posts con il codice HTML insieme ai suoi dati
 posts.forEach((element) => {
 
+    //! formattare le date in italiano
     element['created'] = element['created'].substring(8, 10) + "-" + element['created'].substring(5, 7) + "-" + element['created'].substring(0, 4) ;
     
+    //! aggiungo elementi DOM 
     postsContainer.innerHTML += `
     <div class="post">
             <div class="post__header">
@@ -281,10 +283,6 @@ for (let i = 0; i < likeButton.length; i++) {
         console.log(likesArray);
     });
 };
-
-//! formattare le date in italiano
-// posts[19]['created'] = '23';
-
 
 //! gestire l'assenza della foto profilo inserendo le iniziali del nome e cognome dell'utente
 
