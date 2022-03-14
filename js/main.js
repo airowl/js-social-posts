@@ -94,7 +94,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 345,
         "created": "2021-06-30"
     },
     {
@@ -105,7 +105,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 12,
         "created": "2021-06-30"
     },
     {
@@ -116,7 +116,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 87,
         "created": "2021-06-30"
     },
     {
@@ -127,7 +127,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 65,
         "created": "2021-06-30"
     },
     {
@@ -138,7 +138,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 43,
         "created": "2021-06-30"
     },{
         "id": 14,
@@ -148,7 +148,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 113,
         "created": "2021-06-30"
     },
     {
@@ -159,7 +159,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 967,
         "created": "2021-06-30"
     },
     {
@@ -170,7 +170,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 346,
         "created": "2021-06-30"
     },
     {
@@ -181,7 +181,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 74,
         "created": "2021-06-30"
     },
     {
@@ -192,7 +192,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 23,
         "created": "2021-06-30"
     },{
         "id": 19,
@@ -202,7 +202,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 86,
         "created": "2021-06-30"
     },
     {
@@ -213,7 +213,7 @@ const posts = [
             "name": "Alessandro Sainato",
             "image": "https://unsplash.it/300/300?image="
         },
-        "likes": 30,
+        "likes": 745,
         "created": "2021-06-30"
     },
 ];
