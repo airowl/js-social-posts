@@ -264,11 +264,15 @@ const likeButton = document.querySelectorAll('a.like-button');
 
 console.log(likeButton);
 
+const likesArray = [];
+
 for (let i = 0; i < likeButton.length; i++) {
     likeButton[i].addEventListener('click', function() {
         this.classList.toggle('js-like-button');
         
         document.getElementById('like-counter-' + posts[i].id).innerHTML = ++posts[i].likes;
+        likesArray.push(posts[i]['id']);
+        console.log(likesArray);
     });
 };
 
