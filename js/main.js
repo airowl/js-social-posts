@@ -230,7 +230,7 @@ posts.forEach((element) => {
             <div class="post__header">
                 <div class="post-meta">                    
                     <div class="post-meta__icon">
-                        <img class="profile-pic" src="${element['author']['image']}" alt="${element['author']['name']}">                    
+                        <img class="profile-pic" src="${element['author']['image']}" alt="${imgNotAvailable(element['author']['name'])}">                    
                     </div>
                     <div class="post-meta__data">
                         <div class="post-meta__author">${element['author']['name']}</div>
@@ -276,6 +276,12 @@ for (let i = 0; i < likeButton.length; i++) {
     });
 };
 
+//! formattare le date in italiano
+posts[19]['created'] = '23';
 
 
+//! gestire l'assenza della foto profilo inserendo le iniziali del nome e cognome dell'utente
 
+function imgNotAvailable(element){
+    return element.split(' ')[0].charAt(0) + element.split(' ')[1].charAt(0);
+};
